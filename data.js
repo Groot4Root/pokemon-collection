@@ -1,0 +1,38 @@
+window.COLLECTION_DATA = [
+  {
+    "slug": "2025-03-10-prismatic-evolutions-etb",
+    "name": "Prismatic Evolutions Elite Trainer Box",
+    "category": "Elite Trainer Box",
+    "set": "Scarlet & Violet — Prismatic Evolutions",
+    "language": "English",
+    "acquired": "2025-03-10",
+    "condition": "Sealed",
+    "image": "images/prismatic-evolutions-etb.jpg",
+    "price": "CHF 59.90",
+    "notes": "Picked up at local card shop on release day. One of the most hyped ETBs in years due to the Eevee-lution focus."
+  },
+  {
+    "slug": "2025-01-20-surging-sparks-etb",
+    "name": "Surging Sparks Elite Trainer Box",
+    "category": "Elite Trainer Box",
+    "set": "Scarlet & Violet — Surging Sparks",
+    "language": "English",
+    "acquired": "2025-01-20",
+    "condition": "Sealed",
+    "image": "images/surging-sparks-etb.jpg",
+    "price": "CHF 54.90",
+    "notes": "Ordered online. Features Pikachu artwork on the box. Included the Pikachu promo card."
+  },
+  {
+    "slug": "2024-11-05-stellar-crown-booster-box",
+    "name": "Stellar Crown Booster Box",
+    "category": "Booster Box",
+    "set": "Scarlet & Violet — Stellar Crown",
+    "language": "English",
+    "acquired": "2024-11-05",
+    "condition": "Sealed",
+    "image": "images/stellar-crown-booster-box.jpg",
+    "price": "CHF 149.00",
+    "notes": "36 booster packs. Keeping sealed as a long-term hold. Great art set with Terapagos."
+  }
+];

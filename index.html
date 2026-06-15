@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokémon Sealed Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background decoration -->
+  <div class="bg-orb bg-orb-1"></div>
+  <div class="bg-orb bg-orb-2"></div>
+  <div class="bg-pokeball-deco"></div>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-icon">
+          <div class="pokeball-icon">
+            <div class="pb-top"></div>
+            <div class="pb-band"></div>
+            <div class="pb-bottom"></div>
+            <div class="pb-center"></div>
+          </div>
+        </div>
+        <div>
+          <h1>Sealed Collection</h1>
+          <p class="subtitle">Elite Trainer Boxes &amp; Sealed Product</p>
+        </div>
+      </div>
+      <nav class="tabs">
+        <button class="tab active" data-tab="grid">
+          <span class="tab-icon">⊞</span> Collection
+        </button>
+        <button class="tab" data-tab="timeline">
+          <span class="tab-icon">◷</span> Timeline
+        </button>
+      </nav>
+    </div>
+    <div class="controls">
+      <div class="search-wrap">
+        <span class="search-icon">⌕</span>
+        <input type="search" id="search" placeholder="Search by name or set…" autocomplete="off" />
+      </div>
+      <select id="category-filter">
+        <option value="">All Categories</option>
+      </select>
+      <span id="count" class="count"></span>
+    </div>
+  </header>
+
+  <main>
+    <div id="grid-view" class="view active">
+      <div id="card-grid"></div>
+      <p id="empty-grid" class="empty hidden">No items match your filter.</p>
+    </div>
+
+    <div id="timeline-view" class="view hidden">
+      <div id="timeline"></div>
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal-overlay" class="hidden">
+    <div id="modal">
+      <button id="modal-close">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Inline data (works for file:// and http://) -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
